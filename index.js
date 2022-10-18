@@ -9,12 +9,13 @@ app.get('/', (req, res) => {
 })
 
 app.post('/signin', (req, res) => {
-    res.send('Вход выполнен!')
+    res.send('Вика вошла домой!')
 })
 
 app.post('/signup', (req, res) => {
-  res.send('Регистрация завершена!')
+  res.send('Вика дома!')
 })
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
