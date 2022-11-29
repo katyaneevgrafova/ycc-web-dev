@@ -15,29 +15,30 @@
         <div class="center-card">
             <h1>вход для вики в викин домик</h1>
 
-        
 
-            <form class="scard-body" method="post" action="/login">
+
+            <form class="card-body" method="post" action="/login">
                 <div class="field">
+                    <input id="login" name="логин" required>
+                    <span></span>
                     <label for="login">как тебя зовут, вика? </label>
-                    <input id="login" name="логин" placeholder="напиши-> вика" required>
                 </div>
 
 
                 <div class="field">
+                    <input id="password" name="пароль" required>
+                    <span></span>
                     <label for="password">напиши пароль от виконого колпина </label>
-                    <input id="password" name="пароль" placeholder="40277501! незабудь!" required>
                 </div>
 
                 <div class="field">
                     <label for="remme">запомнить вику, не забывать вику</label>
-                    <input id="remme" name="remme" type="checkbox" placeholder="запомнить вику, не забывать вику"
-                        required>
+                    <input id="remme" name="remme" type="checkbox" required>
                 </div>
 
                 <a href="registration.html">зарегаться в викин дом-тилибом</a>
 
-                <input type="submit" value="пупупупупупупупупупу ДОМОЙ!">
+                <input class=btn-submit type="submit" value="пупупупупупупупупупу ДОМОЙ!">
 
             </form>
 
@@ -45,5 +46,10 @@
     </div>
 
 </body>
+
+
+placeholder="напиши-> вика"
+placeholder="запомнить вику, не забывать вику"
+placeholder="40277501! незабудь!"
 
 </html>
