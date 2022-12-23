@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
+    <link href="../style/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>входик</title>
+    <title>выход</title>
 </head>
+
 <body>
-    <h1>вход для вики в викин домик</h1>
-    
-    <form method="post" action="/login">
-    <p>
-        <label for="login">как тебя зовут, вика?    </label>
-        <input id="login" name="логин" placeholder="напиши-> вика" required> 
-    </p>
 
-    
-    <p>
-        <label for="password">напиши пароль от виконого колпина     </label>
-        <input id="password" name="пароль" placeholder="40277501! незабудь!" required> 
-    </p>
-    
-    <p>
-        <label for="remme">запомнить вику, не забывать вику</label>
-        <input id="remme" name="remme" type="checkbox" placeholder="запомнить вику, не забывать вику"  required> 
-    </p>
+    <div class="container">
+        <div class="center-card">
+            <h1>регистрация куда-то там</h1>
 
-   
-    
-    <input type="submit" value="пупупупупупупупупупу ДОМОЙ!">
 
-</form>
 
-     
+            <form class="card-body" method="post" action="/login">
+                <div class="field">
+                    <input id="login" name="логин" required>
+                    <span></span>
+                    <label for="login">как тебя звать?</label>
+                </div>
+
+
+                <div class="field">
+                    <input id="password" name="пароль" required>
+                    <span></span>
+                    <label for="password">напиши пароль</label>
+                </div>
+                <div class="link">
+                    вика, это ты?<a href="login.html">нет, я не вика</a>
+                </div>
+                <input class=btn-submit type="submit" value="пупупупупупупупупупу ИЗ ДОМА!">
+
+            </form>
+
+        </div>
+    </div>
+
 </body>
+
 </html>
